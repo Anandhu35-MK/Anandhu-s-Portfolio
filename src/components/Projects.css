@@ -1,0 +1,112 @@
+.projects-section {
+  padding: 10rem 0;
+  position: relative;
+}
+
+.projects-bg-shape {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  animation: float 20s infinite linear;
+}
+
+.shape-left {
+  top: 10%;
+  left: -5%;
+}
+
+.shape-right {
+  bottom: 20%;
+  right: -5%;
+  animation: float 25s infinite linear reverse;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.project-card-wrapper {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.project-card {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(10px);
+  padding: 3rem 2.5rem;
+  height: 100%;
+  transition: border-color 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  opacity: 0.5;
+}
+
+.project-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.project-content {
+  transform: translateZ(30px); /* Pushes content out slightly for 3D effect */
+}
+
+.project-category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-secondary);
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.project-description {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  gap: 1rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

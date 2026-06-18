@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Creative Skills",
+    "skills": ["Brand Strategy", "Visual Design", "Copywriting", "Art Direction", "Storytelling"]
+  },
+  {
+    "title": "Technical Skills",
+    "skills": ["Figma", "Adobe Creative Suite", "Asana", "Trello", "Microsoft Office", "Notion"]
+  },
+  {
+    "title": "Soft Skills",
+    "skills": ["Team Leadership", "Client Relations", "Public Speaking", "Project Management", "Problem Solving"]
+  }
+]
