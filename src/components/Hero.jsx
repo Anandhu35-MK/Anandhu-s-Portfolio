@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight, Mail } from 'lucide-react';
 import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import pic1 from '../assets/pic1.png';
+import pic1 from '../assets/pic1.jpg';
+// import pic1 from '../assets/pic1.png';
 import './Hero.css';
 
 const Hero = () => {
@@ -11,10 +12,10 @@ const Hero = () => {
         <div className="hero-content">
           <h1 className="hero-title">
             Hi, I'm <span className="highlight">Anandhu Mahadev MK</span>.<br />
-            Lorem ipsum dolor.
+            Professional Social Worker
           </h1>
           <p className="hero-subtitle">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quam tempora nemo, placeat minima vero facilis mollitia sapiente doloribus fuga a quia velit, corrupti et, nam eius sunt expedita id!          </p>
+Medical and Psychiatric Social Worker with experience in healthcare, research, education, and social development, creating meaningful impact through people-centered solutions.       </p>
           
           <div className="hero-cta">
             <a href="#contact" className="btn-primary">

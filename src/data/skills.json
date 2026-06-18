@@ -1,14 +1,27 @@
 [
   {
-    "title": "Creative Skills",
-    "skills": ["Brand Strategy", "Visual Design", "Copywriting", "Art Direction", "Storytelling"]
-  },
-  {
     "title": "Technical Skills",
-    "skills": ["Figma", "Adobe Creative Suite", "Asana", "Trello", "Microsoft Office", "Notion"]
+    "skills": [
+      "Ms Word",
+      "Ms Excel",
+      "Ms PowerPoint",
+      "Documentation",
+      "Data Analysis",
+      "Budjeting",
+      "Report Preparation"
+    ]
   },
   {
     "title": "Soft Skills",
-    "skills": ["Team Leadership", "Client Relations", "Public Speaking", "Project Management", "Problem Solving"]
-  }
+    "skills": [
+      "Project Management",
+      "Communication", 
+      "Public Relations",
+      "Time Management",
+      "Leadership",
+      "Critical Thinking",
+      "Teamwork",
+      "Ethical Responsibility",
+      "Quick Learner"
+      ]}
 ]

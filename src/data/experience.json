@@ -1,9 +1,23 @@
 [
   {
     "id": 1,
-    "role": "Creative Director",
-    "company": "Design Studio LLC",
-    "period": "2020 - Present",
-    "description": "Leading creative campaigns and managing a team of designers to deliver high-impact branding solutions for international clients."
+    "role": "Program Coordinator",
+    "company": "Viswasanthi Development Foundation",
+    "period": "2025 June - 2026 June",
+    "description": "I played a key role in implementing educational and skill development initiatives across Kerala. I coordinated the Viswasanthi–TATA Elxsi Scholarship Programme for economically disadvantaged Polytechnic students, facilitating financial support, mentorship, and career development opportunities."
+  },
+  {
+    "id": 2,
+    "role": "Field Level Investigator",
+    "company": "State Health System Resource Centre (SHSRC), Kerala - ICMR",
+    "period": "2025 January - 2025 April",
+    "description": "Contributed to the ICMR-funded SWAAS COPD study by conducting field investigations, collecting high-quality research data, and supporting community-based public health research initiatives"
+  },
+  {
+    "id": 3,
+    "role": "Secretary",
+    "company": "Karunyahastham Charitable Society, Thiruvananthapuram",
+    "period": "2025 October - 2024 December",
+    "description": "Supported organizational administration, documentation, and volunteer coordination while leading community outreach and charitable initiatives. Played a key role in the successful renewal of the organization's registration and the implementation of social welfare activities."
   }
 ]
